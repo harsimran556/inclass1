@@ -41,6 +41,9 @@ public class CardTrick {
         
         System.out.println("Card number"+CardNumber);
         System.out.println("Suit of the caed is"+s);
+        Card luckycard= new Card();
+        Card.setSuit("Heart");
+        Card.setValue(1);
     }
     
 }
